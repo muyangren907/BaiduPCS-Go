@@ -100,34 +100,34 @@ CC=$NDK_INSTALL/i686-linux-android-4.9/bin/i686-linux-android-gcc AndroidBuild $
 CC=$NDK_INSTALL/x86_64-linux-android-4.9/bin/x86_64-linux-android-gcc AndroidBuild $name-$version"-android-21-amd64" android amd64 7
 
 # iOS
-IOSBuild $name-$version"-darwin-ios-arm"
+# IOSBuild $name-$version"-darwin-ios-arm"
 
 # OS X / macOS
-Build $name-$version"-darwin-osx-amd64" darwin amd64
+# Build $name-$version"-darwin-osx-amd64" darwin amd64
 # Build $name-$version"-darwin-osx-386" darwin 386
 
 # Windows
-Build $name-$version"-windows-x86" windows 386
-Build $name-$version"-windows-x64" windows amd64
+# Build $name-$version"-windows-x86" windows 386
+# Build $name-$version"-windows-x64" windows amd64
 
 # Linux
-Build $name-$version"-linux-386" linux 386
+# Build $name-$version"-linux-386" linux 386
 Build $name-$version"-linux-amd64" linux amd64
-Build $name-$version"-linux-armv5" linux arm 5
-Build $name-$version"-linux-armv7" linux arm 7
-Build $name-$version"-linux-arm64" linux arm64
-GOMIPS=softfloat Build $name-$version"-linux-mips" linux mips
-Build $name-$version"-linux-mips64" linux mips64
-GOMIPS=softfloat Build $name-$version"-linux-mipsle" linux mipsle
-Build $name-$version"-linux-mips64le" linux mips64le
+# Build $name-$version"-linux-armv5" linux arm 5
+# Build $name-$version"-linux-armv7" linux arm 7
+# Build $name-$version"-linux-arm64" linux arm64
+# GOMIPS=softfloat Build $name-$version"-linux-mips" linux mips
+# Build $name-$version"-linux-mips64" linux mips64
+# GOMIPS=softfloat Build $name-$version"-linux-mipsle" linux mipsle
+# Build $name-$version"-linux-mips64le" linux mips64le
 # Build $name-$version"-linux-ppc64" linux ppc64
 # Build $name-$version"-linux-ppc64le" linux ppc64le
 # Build $name-$version"-linux-s390x" linux s390x
 
 # Others
 # Build $name-$version"-solaris-amd64" solaris amd64
-Build $name-$version"-freebsd-386" freebsd 386
-Build $name-$version"-freebsd-amd64" freebsd amd64
+# Build $name-$version"-freebsd-386" freebsd 386
+# Build $name-$version"-freebsd-amd64" freebsd amd64
 # Build $name-$version"-freebsd-arm" freebsd arm
 # Build $name-$version"-netbsd-386" netbsd	386
 # Build $name-$version"-netbsd-amd64" netbsd amd64
