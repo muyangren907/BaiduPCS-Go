@@ -10,7 +10,7 @@ fi
 output="out/"
 
 old_golang() {
-  GOROOT=/usr/local/go1.10.8
+  GOROOT=/usr/local/go
   go=$GOROOT/bin/go
 }
 
