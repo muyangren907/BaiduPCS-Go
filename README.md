@@ -3,6 +3,13 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/nhx92nqyrfq9su7y?svg=true)](https://ci.appveyor.com/project/iikira/baidupcs-go)
 [![GoDoc](https://godoc.org/github.com/iikira/BaiduPCS-Go?status.svg)](https://godoc.org/github.com/iikira/BaiduPCS-Go)
 
+## GO
+ ```
+ wget https://studygolang.com/dl/golang/go1.13.4.linux-amd64.tar.gz
+ #解压文件
+ tar xfz go1.13.4.linux-amd64.tar.gz -C /usr/local
+ ```
+
 仿 Linux shell 文件处理命令的百度网盘命令行客户端.
 
 This project was largely inspired by [GangZhuo/BaiduPCS](https://github.com/GangZhuo/BaiduPCS)
